@@ -1,7 +1,7 @@
 """Extensible JSON/YAML/RAML/... data loader."""
 
 __all__ = 'Loader'.split()
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 from os.path import splitext, dirname
 
