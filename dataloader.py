@@ -31,7 +31,7 @@ class Loader(object):
             markup = self.markups.get(splitext(path)[-1][1:], self.default_markup)
         if self.log:
             self.log.info('get %s: %s [%s]', name or self.name, path, markup)
-        return self.postprocess(getattr(self, 'load_{}'.format(markup))(f), name, **options)
+        return self.postprocess(getattr(self, 'load_{0}'.format(markup))(f), name, **options)
 
     __call__ = load
 
@@ -66,6 +66,6 @@ class Loader(object):
             return load(f)
 
     def __str__(self):
-        return '{}.{}({}: *{}, {})'.format(self.__class__.__module__, self.__class__.__name__.lower(),
+        return '{0}.{1}({2}: *{3}, {4})'.format(self.__class__.__module__, self.__class__.__name__.lower(),
             self.name, self.default_markup,
             ', '.join(k for k in sorted(set(self.markups.values())) if k != self.default_markup))
