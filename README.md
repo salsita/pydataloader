@@ -42,6 +42,12 @@ easy_install "PyDataLoader[yaml,raml]"
 
 ## Changelog
 
+### 0.1.2
+
+#### Fixes
+
+- Fix Python 2.6 support.
+
 ### 0.1.1
 
 #### Fixes
