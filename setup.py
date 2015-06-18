@@ -45,7 +45,7 @@ properties = dict(
         ],
     extras_require = {
         'raml': [
-            'pyraml-parser>=0.0.5',
+            'pyraml-parser>=0.1.5',
             ],
         'yaml': [
             'PyYAML>=3.11',
