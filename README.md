@@ -42,6 +42,13 @@ easy_install "PyDataLoader[yaml,raml]"
 
 ## Changelog
 
+### 0.1.3
+
+#### Fixes
+
+- Update dependencies to support Python 3.
+- Fix package setup on Python 3.
+
 ### 0.1.2
 
 #### Fixes
