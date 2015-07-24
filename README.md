@@ -2,13 +2,15 @@
 
 Extensible JSON/YAML/RAML/... data loader.
 
-[![Latest Version](https://pypip.in/version/PyDataLoader/badge.svg)]
+[![Version](https://badge.fury.io/gh/salsita%2Fpydataloader.svg)]
+(https://github.com/salsita/pydataloader/tags)
+[![PyPI package](https://badge.fury.io/py/PyDataLoader.svg)]
 (https://pypi.python.org/pypi/PyDataLoader/)
-[![Downloads](https://pypip.in/download/PyDataLoader/badge.svg)]
+[![Downloads](https://img.shields.io/pypi/dm/PyDataLoader.svg)]
 (https://pypi.python.org/pypi/PyDataLoader/)
-[![Supported Python versions](https://pypip.in/py_versions/PyDataLoader/badge.svg)]
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/PyDataLoader.svg)]
 (https://pypi.python.org/pypi/PyDataLoader/)
-[![License](https://pypip.in/license/PyDataLoader/badge.svg)]
+[![License](https://img.shields.io/pypi/l/PyDataLoader.svg)]
 (https://pypi.python.org/pypi/PyDataLoader/)
 
 
